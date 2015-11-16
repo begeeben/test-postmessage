@@ -1,6 +1,6 @@
 document.getElementById('open').addEventListener('click', function () {
   var domain = 'http://begeeben.github.io';
-  var receiver = window.open(domain + '/receiver.html', 'receiver window');
+  var receiver = window.open(domain + '/test-postmessage/receiver.html', 'receiver window');
 
   var btn = document.getElementById('send');
 
